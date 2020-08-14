@@ -1,0 +1,47 @@
+
+.header{
+    background:rgb(68, 68, 68);
+    color:white;
+    height:4rem;
+}
+.navbar{
+    display: block;
+    position: relative;
+    padding:1.5rem;
+}
+.nav_left{
+   display: inline-block;
+}
+.menu_icon{
+    display: inline-block;
+    padding: 0 .7rem;
+}
+.logo{
+    display: inline-block;
+    height: 100%;
+}
+.logo_image{
+    height:20px;
+}
+.nav_middle{
+    position: absolute;
+    left:50%;
+    display: inline-block;
+    transform: translateX(-50%);
+}
+.nav_right{
+    position: absolute;
+    right:10px;
+    display: inline-block;
+}
+.nav_right ul{
+    margin-top:-.7%;
+}
+.nav_right ul li{
+    display: inline-block;
+    padding:0 .4rem;
+    list-style-type: none;
+}
+.right_icon{
+    height:30px;
+}

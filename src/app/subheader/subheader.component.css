@@ -1,0 +1,23 @@
+.subheader{
+    margin-top:0;
+    background:lightgray;
+    color:white;
+    display:block;
+}
+.section{
+    display: inline-block;
+    padding:2rem;
+}
+.divider{
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+    display: inline-block;
+    height: 80%;
+}
+.text{
+    margin-left:10px;
+    margin-top:10px;
+    transform-origin: left;
+    transform: rotate(-90deg);
+    padding:1.2rem 0;
+}
